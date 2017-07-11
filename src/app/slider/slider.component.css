@@ -1,0 +1,67 @@
+
+
+/* .styleAppend .ng2-nouislider .noUi-target{
+  background: #40e0d0;
+  background: -moz-linear-gradient(left, #40e0d0 0%, #2b94e5 100%);
+  background: -webkit-linear-gradient(left, #40e0d0 0%,#2b94e5 100%);
+  background: linear-gradient(to right, #40e0d0 0%,#2b94e5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40e0d0', endColorstr='#2b94e5',GradientType=1 );
+  border:none;
+  border-radius: 10px;
+} */
+
+.ng2-nouislider .noUi-target{
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#40e0d0+0,2b94e5+100 */
+  background: #e9e9e9;
+  border-radius: 10px;
+  border:none;
+  box-shadow: none;
+}
+.ng2-nouislider .noUi-connect{
+  background-color:transparent;
+}
+
+.styleAppend .ng2-nouislider .noUi-connect{
+  background: #40e0d0;
+  background: -moz-linear-gradient(left, #40e0d0 0%, #2b94e5 100%);
+  background: -webkit-linear-gradient(left, #40e0d0 0%,#2b94e5 100%);
+  background: linear-gradient(to right, #40e0d0 0%,#2b94e5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40e0d0', endColorstr='#2b94e5',GradientType=1 );
+  border:none;
+}
+
+.noUi-horizontal{
+  height:25px;
+}
+
+.styleAppend .noUi-horizontal .noUi-handle{
+  top:-2px;
+  width:28px;
+  border-radius: 18px;
+  outline:0;
+}
+
+.noUi-horizontal .noUi-handle{
+  top:-2px;
+  width:28px;
+  border-radius: 18px;
+  outline:0;
+  background-color: #7f7f7f;
+  box-shadow: none;
+}
+
+.styleAppend .noUi-horizontal .noUi-handle{
+  top:-2px;
+  width:28px;
+  border-radius: 18px;
+  outline:0;
+  background-color: #2a2a2a;
+  box-shadow: none;
+}
+
+.noUi-handle:after, .noUi-handle:before{
+  background-color: transparent;
+}
+
+.slider-wrapper { position:relative }
+#sparklines{ position:absolute; top:-18px;}

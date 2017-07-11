@@ -1,0 +1,26 @@
+
+
+
+<div [ngClass]="{'styleAppend' : sliderCondition()}" class="row" style="margin-top:150px">
+  <div class="col-md-6 col-md-offset-2">
+
+    <div class="well" style="margin-bottom:150px">
+        Your filtered choice: {{ baseAmt }} - {{ maxAmt }}
+   </div>
+  <div class="slider-wrapper">
+    <span id="sparklines" style="width: 100%; display: block"> {{ sparklines }} </span>
+
+   <nouislider [connect]="true" [min]="0"
+   [max]="300"
+   [step]="5"
+   [(ngModel)]="someRange"
+    (ngModelChange)="onChange($event)"></nouislider>
+  </div>
+
+  </div>
+</div>
+<hr>
+<p> Start handle : {{ startHandle }} </p>
+<p> End handle : {{ endHandle }} </p>
+<hr>
+
